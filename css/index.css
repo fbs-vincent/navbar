@@ -414,7 +414,25 @@
        font-size: 54px;
    }
 
-  
+   .dashboard i {
+       position: absolute;
+       top: 50px;
+       left: 60px;
+       color: #fff;
+       font-size: 36px;
+       font-weight: 700;
+       transition: 0.1s all ease-in;
+   }
+
+   .dashboard i:hover {
+       color: blue;
+   }
+
+   .dashboard span {
+       margin-left: 20px;
+       font-size: 36px;
+   }
+
    /* =================================================================== 
    * 5.0 :: End Main Content
    * ===================================================================
